@@ -32,7 +32,7 @@ export default function Page() {
     <GoogleMapsEmbed
       apiKey="XYZ"
       height={200}
-      width="100%"
+      width={600}
       mode="place"
       q="Brooklyn+Bridge,New+York,NY"
     />

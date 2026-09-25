@@ -386,7 +386,7 @@ export default function Page() {
     <GoogleMapsEmbed
       apiKey="XYZ"
       height={200}
-      width="100%"
+      width={600}
       mode="place"
       q="Brooklyn+Bridge,New+York,NY"
     />
@@ -406,7 +406,7 @@ export default function Page() {
     <GoogleMapsEmbed
       apiKey="XYZ"
       height={200}
-      width="100%"
+      width={600}
       mode="place"
       q="Brooklyn+Bridge,New+York,NY"
     />
@@ -425,8 +425,8 @@ docs](https://developers.google.com/maps/documentation/embed/embedding-map).
 | ----------------- | -------- | --------------------------------------------------------------------------------------------------- |
 | `apiKey`          | Required | Your api key.                                                                                       |
 | `mode`            | Required | [Map mode](https://developers.google.com/maps/documentation/embed/embedding-map#choosing_map_modes) |
-| `height`          | Optional | Height of the embed. Defaults to `auto`.                                                            |
-| `width`           | Optional | Width of the embed. Defaults to `auto`.                                                             |
+| `height`          | Optional | Height of the embed in pixels. Defaults to `auto`.                                                  |
+| `width`           | Optional | Width of the embed in pixels. Defaults to `auto`.                                                   |
 | `style`           | Optional | Pass styles to the iframe.                                                                          |
 | `allowfullscreen` | Optional | Property to allow certain map parts to go full screen.                                              |
 | `loading`         | Optional | Defaults to lazy. Consider changing if you know your embed will be above the fold.                  |
